@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HealthXplrers</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="HealthXplorers Logo">
+        <h1>HealthXplorers</h1>
+    </header>
+
+    <div class="container">
+        <h2>Select a Site:</h2>
+        <button id="site1Button">Data System</button>
+        <button id="site2Button">Health Level 7</button>
+    </div>
+
+    <script>
+    document.getElementById("site1Button").addEventListener("click", function () {
+        
+        window.open("http://127.0.0.1:8000/", "_blank");
+    });
+
+    document.getElementById("site2Button").addEventListener("click", function () {
+        
+        window.open("http://127.0.0.1:8001/", "_blank");
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
